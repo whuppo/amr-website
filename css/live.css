@@ -1,0 +1,21 @@
+table {
+	margin-top: -1.2em;
+}
+
+table, th, td {
+	border-bottom: 1px solid #ccc;
+}
+
+th, td {
+	width: 33%;
+	padding: 1.2em;
+}
+
+td.name {
+	border-left: 1px dashed #aaa;
+	border-right: 1px dashed #aaa;
+}
+
+.media-body {
+	vertical-align: middle;
+}

@@ -1,0 +1,61 @@
+/* Jumbotron */
+.jumbotron {
+	color: white;
+	text-shadow: 0 1px 2px rgba( 0, 0, 0, .6 );
+	background: url( "../images/image1.jpg" );
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+
+.gmod-bg {
+	background: url( "../images/gmod-bg.jpg" );
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.csgo-bg {
+	background: url( "../images/csgo-bg.jpg" );
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* Featurettes */
+
+.featurette-divider {
+	margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+/* Custom Elements */
+.bg-shadow {
+	filter: drop-shadow( 0px 0px 4px rgba( 0, 0, 0, 0.9 ) );
+	-webkit-filter: drop-shadow( 0px 0px 4px rgba( 0, 0, 0, 0.9 ) );
+	-moz-filter: drop-shadow( 0px 0px 4px rgba( 0, 0, 0, 0.9 ) );
+	-o-filter: drop-shadow( 0px 0px 4px rgba( 0, 0, 0, 0.9 ) );
+	-ms-filter: drop-shadow( 0px 0px 4px rgba( 0, 0, 0, 0.9 ) );
+}
+
+.delay-0-25s {
+	animation-delay: 0.25s;
+	-webkit-animation-delay: 0.25s;
+	-moz-animation-delay: 0.25s;
+	-o-animation-delay: 0.25s;
+	-ms-animation-delay: 0.25s;
+}
+
+.delay-0-5s {
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	-ms-animation-delay: 0.5s;
+}
