@@ -1,0 +1,20 @@
+/* colours */
+.punishment {
+    color: #F21;
+}
+
+.violation {
+    color: #F80;
+}
+
+.note {
+    color: #08F;
+}
+
+.if {
+    margin-left: 2em;
+}
+
+.description {
+    margin-left: 3.2em;
+}
