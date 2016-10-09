@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>AfterMath Revolution - TDM Rules</title>
+
+		<!--  Bootstrap -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Animsition -->
+		<link href="../css/animsition.min.css" rel="stylesheet">
+
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+		<!-- CSS -->
+		<link href="../css/animate.css" rel="stylesheet" type="text/css">
+		<link href="../css/hover.css"   rel="stylesheet" type="text/css">
+		<link href="../css/default.css" rel="stylesheet" type="text/css">
+
+		<link href="../css/about.css"   rel="stylesheet" type="text/css">
+		<link href="../css/rules.css"   rel="stylesheet" type="text/css">
+
+		<!-- Icon -->
+		<link rel="shortcut icon" href="../favicon.ico">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Animsition Overlay -->
+		<div class="animsition-overlay" data-animsition-overlay="true">
+			<!-- Navbar -->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand animsition-link" href="../index.html"><img class="amrlogo-nav" src="../images/logo-nav.png"></a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a class="animsition-link" href="../index.html">Home</a></li>
+							<li><a class="animsition-link" href="../history.html">History</a></li>
+							<li><a class="animsition-link" href="http://amrcommunity.com/forums/">Forums</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Trouble in Terrorist Town <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="animsition-link" href="../ttt/index.html">Showcase</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Information</li>
+									<li class="disabled"><a href="../ttt/rules.html">Rules</a></li>
+									<li class="disabled"><a href="../ttt/maplist.html">Maplist</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DarkRP <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="animsition-link" href="../darkrp/index.html">Showcase</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Information</li>
+									<li class="disabled"><a href="../darkrp/rules.html">Rules</a></li>
+									<li class="disabled"><a href="../darkrp/maplist.html">Maplist</a></li>
+								</ul>
+							</li>
+							<li class="dropdown active">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jailbreak <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="animsition-link" href="../jb/index.html">Showcase</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Information</li>
+									<li class="active"><a href="../jb/rules.html">Rules</a></li>
+									<li class="disabled"><a href="../jb/maplist.html">Maplist</a></li>
+								</ul>
+							</li>
+							<li class="dropdown active">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conquest TDM <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="animsition-link" href="../ctdm/index.html">Showcase</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Information</li>
+									<!--<li class="active"><a href="../ctdm/rules.html">Rules</a></li>--> <!--Why add the same place to the menu?-->
+									<li class="disabled"><a href="../ctdm/maplist.html">Maplist</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Surf <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="animsition-link" href="../surf/index.html">Showcase</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Information</li>
+									<li class="disabled"><a href="../surf/maplist.html">Maplist</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Content -->
+			<div class="container">
+				<div class="row">
+					<div class="page-header">
+						<h1>Jailbreak <small>Our Rules</small></h1>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Sidebar -->
+					<nav class="col-xs-3 bs-docs-sidebar">
+						<ul class="nav nav-stacked fixed" id="sidebar">
+							<li>
+								<a href="#general">General</a>
+								<ul class="nav nav-stacked">
+									<li class=""><a href="#conduct-and-communication">Conduct and Communication</a></li>
+									<li class=""><a href="#gameplay">Gameplay</a></li>
+									<li class=""><a href="#killing">Killing</a></li>
+									<li class=""><a href="#miscellaneous">Miscellaneous</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#warden">Warden</a>
+								<ul class="nav nav-stacked">
+									<li class=""><a href="#communicaton">Communication</a></li>
+									<li class=""><a href="#orders-and-commands">Orders and Commands</a></li>
+									<li class=""><a href="#last-request">Last Request</a></li>
+									<li class=""><a href="#gameplay">Gameplay</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#guard">Guard</a>
+								<ul class="nav nav-stacked">
+									<li class=""><a href="#killing">Killing</a></li>
+									<li class=""><a href="#gameplay">Gameplay</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#prisoners">Prisoners</a>
+								<ul class="nav nav-stacked">
+									<li class=""><a href="#general">General</a></li>
+									<li class=""><a href="#trolling">Trolling</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#staff">Staff</a>
+								<ul class="nav nav-stacked">
+									<li class=""><a href="#commands">Commands</a></li>
+									<li class=""><a href="#conduct">Conduct</a></li>
+									<li class=""><a href="#activity">Activity</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<div class="col-xs-9">
+						<h2 id="general">General Rules <small>The basics that apply to everyobdy</small></h2>
+						<div class="media">
+							<div class="media-body">
+								<h4 class="media-heading" id="conduct-and-communication">1. Treat everybody with courtesy and respect.</h4>
+								<h4 class="media-heading" id="conduct-and-communication">2. Names need to consist of some English letters and be easily pronounced.</h4>
+                <h4 class="media-heading" id="conduct-and-communication">3. Be conservative on mic and chat use (This means no singing, spamming, etc.).</h4>
+                <h4 class="media-heading" id="conduct-and-communication">4. Do not intentionally change your name to impersonate anyone on the server.</h4>
+                <h4 class="media-heading" id="conduct-and-communication">5. No hate speech (Racism, sexism, etc).</h4>
+                <h4 class="media-heading" id="conduct-and-communication">6. No Inappropriate/Offensive Usernames or Text Hats.</h4>
+                <h4 class="media-heading" id="conduct-and-communication">7. Use common sense; members of staff will use their judgment in situations and punish for actions not explicitly covered in the rules or punishments.</h4>
+                <h4 class="media-heading" id="conduct-and-communication">8. Blackmailing is not acceptable and will result in a permanent ban from the server without a chance of being unbanned.</h4>
+                <h4 class="media-heading" id="conduct-and-communication">9. No excessively referencing/talking about religion or politics.</h4>
+                <h4 class="media-heading" id="conduct-and-communication">10. Do not talk over the warden, even if you are on a freeday or are rebelling.</h4>
+                <h4 class="media-heading" id="conduct-and-communication">11. No sprays are allowed that contain NSFW content, advertise other servers or communities, or cause the server to lag.</h4>
+                </div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body">
+								<h4 class="media-heading" id="gameplay">1. No ghosting, cheating, hacking, using exploits, or giving yourself an unfair advantage in any way.</h4>
+								<h4 class="media-heading" id="gameplay">2. Do not troll.</h4>
+                <h4 class="media-heading" id="gameplay">3. Do not show too much favoritism; a little is OK.</h4>
+                <h4 class="media-heading" id="gameplay">4. Extermination/Execution days, and Crouch Hax days are banned. Feed the Beast day must end if the total guard count totals 2 (including the Warden).</h4>
+                <h4 class="media-heading" id="gameplay">5. Do not propblock teammates or enemies.</h4>
+                <h4 class="media-heading" id="gameplay">6. Punching vents is a KOSable offence, and ladders to KOS areas are KOS. </h4>
+                <h4 class="media-heading" id="gameplay">7. Participating players (those on the Guard or Prisoner teams) will be kicked after 2 rounds of AFKism, and those in spectator mode will be kicked after 4 rounds of AFKism.</h4>
+                <h4 class="media-heading" id="gameplay">8. On an Admin Deagle Warday, camping in a way that gives players no fair chance to fight you (I.E. at the exit of a TP or the end of a vent) is considered an exploit.</h4>
+                <h4 class="media-heading" id="gameplay">9. If you find an exploit, report it to a higher up and no one else.</h4>
+                <h4 class="media-heading" id="gameplay">2. No detours and no delays" are implied in all warden orders.</h4>
+               </div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body">
+								<h4 class="media-heading" id="killing">1. Do not prop kill team mates; go karts are not covered by this rule, but the pink kill buttons on Military Jail are</h4>
+								<h4 class="media-heading" id="killing">2. Unless you're in a game that requires team damage (I.E. fight day), damaging teamates is considered attempted RDM and trolling, while killing teamates is considered RDM and trolling.</h4>
+								</div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body">
+								<h4 class="media-heading" id="miscellaneous">1. Pac items may be used, but followers and hats may not differ in size from the ones avalible in the pointshop, and no skins may be used.</h4>
+								<h4 class="media-heading" id="miscellaneous">2. Report all loopholes in the rules to a higher up, and the loophole will be fixed as soon as possible. </h4>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<h2 id="warden">Warden Rules <small>These only apply to the warden</small></h2>
+						<div class="media">
+							<div class="media-body" id="communication">
+								<h4 class="media-heading">1. Wardens MUST have a mic in order to give orders. Wardens cannot give orders via text chat, but they can designate another guard who has a mic to be warden, provided they agree.</h4>
+	              <h4 class="media-heading">2. All of the warden's orders must be clear (so that all prisoners may hear them).</h4> 						
+                <h4 class="media-heading">3. All of the warden's orders must be clear (so that all prisoners may hear them).</h4> 	
+								</div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body" id="orders-and-commands">
+								<h4 class="media-heading">1. The warden must repeat an order/koses once when asked to do so by a prisoner; once a new order/kos is added, the counter resets. Common sense may be used, for example if prisoners repeatedly ask for repeats after every order, the warden may opt to not repeat.</h4>
+								<h4 class="media-heading">2. Wardens cannot give orders that result in a KOS regardless of what the Prisoners do.</h4>
+                <h4 class="media-heading">3. Do not use wordplay to KOS prisoners. This includes subtle word changes, additions, or absences. IE Do a 360, last reaction couch, and many other forms of wordplay. </h4>
+                <h4 class="media-heading">4. KOS's =/= orders. If you make something KOS and open cell doors with no orders, it is a freeday. If you revoke all KOS's, prisoners would still be rebelling if the ran, or entered a KOS zone.</h4>
+                <h4 class="media-heading">5. The Warden may apply basic slayable offences to Guards (mic, leaving a certain area, etc) if a special day (I.E. hide and seek day) calls for it, if the guards have repeatedly abused the voice command, or in other cases where the warden deems them necessary to smoothly run the day. Slayable offences pertaining to the use of certain weapons may be applied to Prisoners during special days when the use of said weapons would severely detract from enjoyment of the day (I.E. Stunstick wardays and knife wardays). Slayable offences may not be used to troll or target a specific person unfairly.</h4>
+								</div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body" id="last-request">
+								<h4 class="media-heading">1. The last prisoner must be given LR by the warden. This does not apply if the last prisoner is KOS or if the prisoner is on freeday. The Last Request cannot break a rule and can only apply to one round. The warden can allow prisoners currently on freedays to compete if they request to.</h4>
+                <h4 class="media-heading">2. On Hide and Seek days, the last prisoner MUST be given LR unless they have rebelled, or the warden has died.</h4>
+                <h4 class="media-heading">3. The warden may deny LR's that are blatantly unreasonable, or meant to troll (I.E. freeday for everyone but two people, or a day where the warden must obey the prisoners.</h4>
+								</div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body" id="gameplay">
+								<h4 class="media-heading">1. Wardens cannot do two special days in a row (freeday, warday, hide and seek day, etc.). If the player count is 5 or less, this rule does not apply.</h4>
+                <h4 class="media-heading">2. Wardens MUST explain the game modes if the prisoners do not understand.</h4>
+                <h4 class="media-heading">3. If no valid order is given by 9:00, the cell doors are not opened before 8:30, or the cell doors are opened before a valid order is given, it is a freeday.</h4>
+                <h4 class="media-heading">4. Constantly killing prisoners using only tricks will be considered trolling.</h4>
+                <h4 class="media-heading">5. Do not abuse server specific knowledge to KOS prisoners. This includes running games without stating them as starting, leading prisoners into KOS areas, and tricks that are not generally based in logic but in an understanding of our server. While you must still follow server rules, you may not KOS prisoners using these tricks.</h4>
+                <h4 class="media-heading">6. When an order is given to go between the warden waypoints, being inside the waypoints themselves counts as being in between.</h4>
+                <h4 class="media-heading">7. The Warden may not give a Prisoner Warden powers.</h4>
+                <h4 class="media-heading">8. Turning team damage on randomly (not for a day that requires team damage) is not allowed.</h4>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<h2 id="guard">Guard Rules <small>These apply to all Guards, the Warden included</small></h2>
+						<div class="media">
+							<div class="media-body" id="killing">
+								<h4 class="media-heading">1. Do not RDM prisoners.</h4>
+                <h4 class="media-heading">2. Guards can shoot prisoners if they're holding a gun, even if they drop it.</h4>
+							  <h4 class="media-heading">3. Last Guard kills all (LGKA) is activated when out of a core group of three Guards, two are killed normally. For example: on a team of four Guards if one is slain but two are killed by Prisoners, LGKA applies. However, if two were slain and one killed, it would not apply. It does not matter how many Guards there are at the beginning of the round; as long as two were killed by Prisoners, it would apply. If LGKA is in effect, the last guard must actively seek out prisoners to kill them.</h4>
+                <h4 class="media-heading">4. Freeshooting is not allowed. Hitting someone in the face with a smoke grenade is considered freeshooting as it causes damage.</h4>
+                <h4 class="media-heading">5. If a guard gets damaged and is alone with a prisoner, or there is no logical way that another prisoner could have damaged them, he/she may kill the prisoner on the assumption that they damaged them, even if they did not witness it.</h4>
+                <h4 class="media-heading">6. If no prisoners are competing for LR, all prisoners will be KOS at 2:00.</h4>
+                </div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body" id="gameplay">
+								<h4 class="media-heading">1. Follow all warden orders. Not doing so may result in a slay or a team-switch.</h4>
+								<h4 class="media-heading">2. Guards may give basic orders to prisoners to ensure their duties can be carried out (I.E. telling a prisoner to move back from a cell doorway in order to kill a rebel even though prisoners were told to afk freeze)</h4>
+                <h4 class="media-heading">3. Guards may NEVER aid and abet the prisoners.</h4>
+                <h4 class="media-heading">4. Do not camp in KOS Areas for more than one minute. This includes just standing outside of a KOS area in the doorway, or the path to the KOS area close-by.</h4>
+                <h4 class="media-heading">5. Do not gunplant.</h4>
+                <h4 class="media-heading">6. Guards cannot force a prisoner to drop a weapon.</h4>
+                <h4 class="media-heading">7. Guards may not use cell door controls unless the warden instructs them to, the warden is AFK (If they are afk at the start of the round, wait until 8:59 to open the doors, it's possible for them to come back and give an order in time), or round time is within 5 seconds of 8:30.</h4>
+                <h4 class="media-heading">8. Guards may not close the cell doors under ANY circumstances. </h4>
+                <h4 class="media-heading">9. Commiting suicide is considered trolling. </h4>
+                <h4 class="media-heading">10. If the Warden dies it's a freeday unless the day is currently a Hide and Seek day or a Warday. </h4>
+                <h4 class="media-heading">11. Only the warden may grant lrs and kill the prisoner after the granting of the lr, unless they give permission to the guards.</h4>
+                </div>
+							</div>
+						</div>
+						<hr>
+						<h2 id="prisoner">Prisoner Rules <small>No, killing Guards isn't RDM</small></h2>
+						<div class="media">
+							<div class="media-body" id="general">
+								<h4 class="media-heading">1. If you're RDMed, report it by using Admin chat (@message). Please include as many details as possible, be respectful, and patient.</h4>
+								</div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body" id="trolling">
+								<h4 class="media-heading">1. Prisoner-blocking is not allowed. This is where you purposefully stand in a guard's way to prevent them from going somewhere (ie. A prisoner blocking a guard from going through a door or leaving a cell). </h4>
+                <h4 class="media-heading">2. Constantly trolling the warden by talking over them, or by spamming "freeday?" or anything similar is considered trolling. </h4>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<h2 id="staff">S <small>North said we can't aboose anymore :(</small></h2>
+						<div class="media">
+							<div class="media-body" id="commands">
+								<h4 class="media-heading">1. Do not abuse your powers.</h4>
+                <h4 class="media-heading">2. You must have a valid reason for banning/kicking someone.</h4>
+                <h4 class="media-heading">3. If you wrongly promote/demote others, you will be demoted permanently, and their ranks will be reverted.</h
+								</div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body" id="conduct">
+								<h4 class="media-heading">1. Do not speak negatively of the server or the staff in the jailbreak game. You are entitled to your opinions, and you can share them on the forums.</h4>
+								</div>
+							</div>
+						</div>
+						<hr style="border-top: dotted 1px;">
+						<div class="media">
+							<div class="media-body" id="activity">
+								<h4 class="media-heading">1. If you're inactive for 2 weeks without a notice of inactivity, you will be demoted. If a member of staff has a track record of poor activity (I.E. repeatedly offline for days on end without a notice), then higher ups reserve the right to use their judgment and demote them before the official two week mark if deemed fit.</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<p>Powered by <a href="http://getbootstrap.com/">Bootstrap 3.3.6</a> and <a href="http://git.blivesta.com/animsition/">Animsition</a> &middot; Created by Jonjon Decasa (<a href="http://whuppo.com/">@whuppo</a>) &middot; &copy; 2015 AfterMath Revolution</p>
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/animsition.min.js" charset="utf-8"></script>
+		<script>
+			$(document).ready(function() {
+				$(".animsition-overlay").animsition({
+					inClass: 'overlay-slide-in-top',
+					outClass: 'overlay-slide-out-top',
+					inDuration: 1500,
+					outDuration: 800,
+					linkElement: '.animsition-link',
+					// e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+					loading: true,
+					loadingParentElement: 'body', //animsition wrapper element
+					loadingClass: 'animsition-loading',
+					loadingInner: '', // e.g '<img src="loading.svg" />'
+					timeout: false,
+					timeoutCountdown: 5000,
+					onLoadEvent: true,
+					browser: [ 'animation-duration', '-webkit-animation-duration'],
+					// "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+					// The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+					overlay : true,
+					overlayClass : 'animsition-overlay-slide',
+					overlayParentElement : 'body',
+					transition: function(url){ window.location.href = url; }
+				});
+			});
+		</script>
+		<script>
+			$('body').scrollspy({
+				target: '.bs-docs-sidebar',
+				offset: 40
+			});
+		</script>
+	</body>
+</html>
